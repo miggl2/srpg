@@ -1,3 +1,7 @@
-console.log("SRPG 로딩됨");
+function startGame() {
+  alert("게임을 시작합니다...");
+}
 
-document.body.insertAdjacentHTML("beforeend", "<p>전투 시뮬레이션 시작 대기 중...</p>");
+function openSettings() {
+  alert("설정 창을 여는 중...");
+}
