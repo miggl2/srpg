@@ -1,7 +1,7 @@
-import * as PIXI from "pixi.js";
+import { Application, Text } from "pixi.js";
 
 async function main() {
-  const app = await PIXI.Application.init({
+  const app = await Application.init({
     width: 640,
     height: 360,
     backgroundColor: 0x2c3e50,
@@ -9,7 +9,7 @@ async function main() {
 
   document.body.appendChild(app.canvas);
 
-  const text = new PIXI.Text("Hello, PixiJS v8!", {
+  const text = new Text("Hello, PixiJS v8!", {
     fill: 0xffffff,
     fontSize: 36,
   });
