@@ -9,7 +9,7 @@ async function main() {
 
   document.body.appendChild(app.canvas);
 
-  const text = new Text("Hello, PixiJS v8!", {
+  const text = new Text("PixiJS v8 Ready", {
     fill: 0xffffff,
     fontSize: 36,
   });
